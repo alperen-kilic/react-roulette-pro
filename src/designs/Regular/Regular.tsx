@@ -53,13 +53,6 @@ const regularDesign =
                   : 'roulette-pro-regular-prize-item-wrapper center'
               }
             >
-              <div className="roulette-pro-regular-image-wrapper">
-                <img
-                  className="roulette-pro-regular-prize-item-image"
-                  src={image}
-                  alt={withText === true ? `prize item ${text}` : 'prize item'}
-                />
-              </div>
               {withText === true && (
                 <p className="roulette-pro-regular-prize-item-text">{text}</p>
               )}
